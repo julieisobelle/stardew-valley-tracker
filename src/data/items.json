@@ -1,0 +1,377 @@
+{
+    "meta": {
+        "version": "0.1.0",
+        "license": "CC BY-NC-SA 3.0",
+        "source": "https://stardewvalleywiki.com",
+        "official_site": "https://www.stardewvalley.net",
+        "copyright": "Stardew Valley is a trademark of ConcernedApe (Eric Barone). This is a fan project not affiliated with ConcernedApe.",
+        "progress_tracker": {
+            "crops_target": 7,
+            "forage_target": 2,
+            "fish_target": 6,
+            "minerals_target": 5,
+            "artisan_target": 5,
+            "cooking_target": 17,
+            "animal_target": 1,
+            "monster_target": 2
+        }
+    },
+    "data": {
+        "crops": [
+            {
+                "id": "crop_parsnip",
+                "name": "Parsnip",
+                "season": ["Spring"],
+                "type": ["Crop"],
+                "price": 35,
+                "image": "https://stardewvalleywiki.com/mediawiki/images/d/db/Parsnip.png"
+            },
+            {
+                "id": "crop_melon",
+                "name": "Melon",
+                "season": ["Summer"],
+                "type": ["Crop", "Fruit"],
+                "giant_crop": true,
+                "price": 250,
+                "image": "https://stardewvalleywiki.com/mediawiki/images/1/19/Melon.png"
+            },
+            {
+                "id": "crop_poppy",
+                "name": "Poppy",
+                "season": ["Summer"],
+                "type": ["Crop", "Flower"],
+                "price": 140,
+                "image": "https://stardewvalleywiki.com/mediawiki/images/3/37/Poppy.png"
+            },
+            {
+                "id": "crop_grape",
+                "name": "Grape",
+                "season": ["Fall"],
+                "type": ["Crop", "Fruit"],
+                "price": 80,
+                "image": "https://stardewvalleywiki.com/mediawiki/images/c/c2/Grape.png"
+            },
+            {
+                "id": "crop_pumpkin",
+                "name": "Pumpkin",
+                "season": ["Fall"],
+                "type": ["Crop"],
+                "giant_crop": true,
+                "price": 320,
+                "image": "https://stardewvalleywiki.com/mediawiki/images/6/64/Pumpkin.png"
+            },
+            {
+                "id": "crop_hot_pepper",
+                "name": "Hot Pepper",
+                "season": ["Summer"],
+                "type": ["Crop", "Fruit"],
+                "price": 40,
+                "image": "https://stardewvalleywiki.com/mediawiki/images/f/f1/Hot_Pepper.png"
+            },
+            {
+                "id": "crop_cactus_fruit",
+                "name": "Cactus Fruit",
+                "season": ["Spring", "Summer", "Fall", "Winter"],
+                "available": "Indoor / Desert",
+                "type": ["Crop", "Fruit"],
+                "price": 75,
+                "image": "https://stardewvalleywiki.com/mediawiki/images/3/32/Cactus_Fruit.png"
+            }
+        ],
+        "forage": [
+            {
+                "id": "forage_purple_mushroom",
+                "name": "Purple Mushroom",
+                "season": ["Fall"],
+                "available": "Mines / Fall",
+                "type": ["Forage"],
+                "price": 250,
+                "image": "https://stardewvalleywiki.com/mediawiki/images/4/4b/Purple_Mushroom.png"
+            },
+            {
+                "id": "forage_crocus",
+                "name": "Crocus",
+                "season": ["Winter"],
+                "type": ["Forage"],
+                "price": 60,
+                "image": "https://stardewvalleywiki.com/mediawiki/images/a/a2/Crocus.png"
+            }
+        ],
+        "fish": [
+            {
+                "id": "fish_sandfish",
+                "name": "Sandfish",
+                "season": ["Spring", "Summer", "Fall", "Winter"],
+                "available": "Desert",
+                "type": ["Fish"],
+                "price": 75,
+                "image": "https://stardewvalleywiki.com/mediawiki/images/b/bb/Sandfish.png"
+            },
+            {
+                "id": "fish_catfish",
+                "name": "Catfish",
+                "season": ["Spring", "Fall"],
+                "available": "River",
+                "type": ["Fish"],
+                "price": 200,
+                "image": "https://stardewvalleywiki.com/mediawiki/images/9/99/Catfish.png"
+            },
+            {
+                "id": "fish_sturgeon",
+                "name": "Sturgeon",
+                "season": ["Summer", "Winter"],
+                "available": "Mountain Lake",
+                "type": ["Fish"],
+                "price": 200,
+                "image": "https://stardewvalleywiki.com/mediawiki/images/4/42/Sturgeon.png"
+            },
+            {
+                "id": "fish_snail",
+                "name": "Snail",
+                "season": ["Spring", "Summer", "Fall", "Winter"],
+                "available": "River",
+                "type": ["Fish", "Crab Pot"],
+                "price": 65,
+                "image": "https://stardewvalleywiki.com/mediawiki/images/d/d2/Snail.png"
+            },
+            {
+                "id": "fish_octopus",
+                "name": "Octopus",
+                "season": ["Summer", "Winter"],
+                "available": "Ocean",
+                "type": ["Fish"],
+                "price": 150,
+                "image": "https://stardewvalleywiki.com/mediawiki/images/5/5a/Octopus.png"
+            },
+            {
+                "id": "fish_super_cucumber",
+                "name": "Super Cucumber",
+                "season": ["Summer", "Fall"],
+                "available": "Ocean",
+                "type": ["Fish"],
+                "price": 250,
+                "image": "https://stardewvalleywiki.com/mediawiki/images/e/e6/Super_Cucumber.png"
+            }
+        ],
+        "minerals": [
+            {
+                "id": "mineral_diamond",
+                "name": "Diamond",
+                "type": ["Mineral"],
+                "price": 750,
+                "image": "https://stardewvalleywiki.com/mediawiki/images/e/ea/Diamond.png"
+            },
+            {
+                "id": "mineral_frozen_tear",
+                "name": "Frozen Tear",
+                "type": ["Mineral"],
+                "price": 75,
+                "image": "https://stardewvalleywiki.com/mediawiki/images/e/ec/Frozen_Tear.png"
+            },
+            {
+                "id": "mineral_obsidian",
+                "name": "Obsidian",
+                "type": ["Mineral"],
+                "price": 200,
+                "image": "https://stardewvalleywiki.com/mediawiki/images/2/23/Obsidian.png"
+            },
+            {
+                "id": "mineral_emerald",
+                "name": "Emerald",
+                "type": ["Mineral"],
+                "price": 250,
+                "image": "https://stardewvalleywiki.com/mediawiki/images/6/6a/Emerald.png"
+            },
+            {
+                "id": "mineral_tigers_eye",
+                "name": "Tigerseye",
+                "type": ["Mineral"],
+                "price": 275,
+                "image": "https://stardewvalleywiki.com/mediawiki/images/6/6e/Tigerseye.png"
+            }
+        ],
+        "artisan": [
+            {
+                "id": "artisan_beer",
+                "name": "Beer",
+                "type": ["Artisan Goods"],
+                "price": 200,
+                "image": "https://stardewvalleywiki.com/mediawiki/images/b/b8/Beer.png"
+            },
+            {
+                "id": "artisan_mead",
+                "name": "Mead",
+                "type": ["Artisan Goods"],
+                "price": 200,
+                "image": "https://stardewvalleywiki.com/mediawiki/images/5/54/Mead.png"
+            },
+            {
+                "id": "artisan_pale_ale",
+                "name": "Pale Ale",
+                "type": ["Artisan Goods"],
+                "price": 300,
+                "image": "https://stardewvalleywiki.com/mediawiki/images/c/c7/Pale_Ale.png"
+            },
+            {
+                "id": "artisan_pina_colada",
+                "name": "Piña Colada",
+                "type": ["Artisan Goods"],
+                "price": 300,
+                "image": "https://stardewvalleywiki.com/mediawiki/images/0/07/Pi%C3%B1a_Colada.png"
+            },
+            {
+                "id": "artisan_goat_cheese",
+                "name": "Goat Cheese",
+                "type": ["Artisan Goods"],
+                "price": 400,
+                "image": "https://stardewvalleywiki.com/mediawiki/images/a/a2/Goat_Cheese.png"
+            }
+        ],
+        "cooking": [
+            {
+                "id": "cooking_glazed_yams",
+                "name": "Glazed Yams",
+                "type": ["Cooking"],
+                "price": 200,
+                "image": "https://stardewvalleywiki.com/mediawiki/images/d/d7/Glazed_Yams.png"
+            },
+            {
+                "id": "cooking_parsnip_soup",
+                "name": "Parsnip Soup",
+                "type": ["Cooking"],
+                "price": 120,
+                "image": "https://stardewvalleywiki.com/mediawiki/images/2/2a/Parsnip_Soup.png"
+            },
+            {
+                "id": "cooking_poppyseed_muffin",
+                "name": "Poppyseed Muffin",
+                "type": ["Cooking"],
+                "price": 250,
+                "image": "https://stardewvalleywiki.com/mediawiki/images/5/58/Poppyseed_Muffin.png"
+            },
+            {
+                "id": "cooking_red_plate",
+                "name": "Red Plate",
+                "type": ["Cooking"],
+                "price": 400,
+                "image": "https://stardewvalleywiki.com/mediawiki/images/e/e1/Red_Plate.png"
+            },
+            {
+                "id": "cooking_roots_platter",
+                "name": "Roots Platter",
+                "type": ["Cooking"],
+                "price": 100,
+                "image": "https://stardewvalleywiki.com/mediawiki/images/4/4c/Roots_Platter.png"
+            },
+            {
+                "id": "cooking_tom_kha_soup",
+                "name": "Tom Kha Soup",
+                "type": ["Cooking"],
+                "price": 250,
+                "image": "https://stardewvalleywiki.com/mediawiki/images/5/52/Tom_Kha_Soup.png"
+            },
+            {
+                "id": "cooking_fried_calamari",
+                "name": "Fried Calamari",
+                "type": ["Cooking"],
+                "price": 150,
+                "image": "https://stardewvalleywiki.com/mediawiki/images/f/f3/Fried_Calamari.png"
+            },
+            {
+                "id": "cooking_spaghetti",
+                "name": "Spaghetti",
+                "type": ["Cooking"],
+                "price": 120,
+                "image": "https://stardewvalleywiki.com/mediawiki/images/8/8c/Spaghetti.png"
+            },
+            {
+                "id": "cooking_maple_bar",
+                "name": "Maple Bar",
+                "type": ["Cooking"],
+                "price": 300,
+                "image": "https://stardewvalleywiki.com/mediawiki/images/f/f4/Maple_Bar.png"
+            },
+            {
+                "id": "cooking_pizza",
+                "name": "Pizza",
+                "type": ["Cooking"],
+                "price": 300,
+                "image": "https://stardewvalleywiki.com/mediawiki/images/1/1b/Pizza.png"
+            },
+            {
+                "id": "cooking_mango_sticky_rice",
+                "name": "Mango Sticky Rice",
+                "type": ["Cooking"],
+                "price": 250,
+                "image": "https://stardewvalleywiki.com/mediawiki/images/c/c5/Mango_Sticky_Rice.png"
+            },
+            {
+                "id": "cooking_pumpkin_soup",
+                "name": "Pumpkin Soup",
+                "type": ["Cooking"],
+                "price": 300,
+                "image": "https://stardewvalleywiki.com/mediawiki/images/c/cf/Pumpkin_Soup.png"
+            },
+            {
+                "id": "cooking_sashimi",
+                "name": "Sashimi",
+                "type": ["Cooking"],
+                "price": 75,
+                "image": "https://stardewvalleywiki.com/mediawiki/images/c/c4/Sashimi.png"
+            },
+            {
+                "id": "cooking_pepper_poppers",
+                "name": "Pepper Poppers",
+                "type": ["Cooking"],
+                "price": 200,
+                "image": "https://stardewvalleywiki.com/mediawiki/images/4/4b/Pepper_Poppers.png"
+            },
+            {
+                "id": "cooking_cranberry_candy",
+                "name": "Cranberry Candy",
+                "type": ["Cooking"],
+                "price": 175,
+                "image": "https://stardewvalleywiki.com/mediawiki/images/8/85/Cranberry_Candy.png"
+            },
+            {
+                "id": "cooking_ginger_ale",
+                "name": "Ginger Ale",
+                "type": ["Cooking"],
+                "price": 200,
+                "image": "https://stardewvalleywiki.com/mediawiki/images/7/77/Ginger_Ale.png"
+            },
+            {
+                "id": "cooking_pink_cake",
+                "name": "Pink Cake",
+                "type": ["Cooking"],
+                "price": 480,
+                "image": "https://stardewvalleywiki.com/mediawiki/images/2/2f/Pink_Cake.png"
+            }
+        ],
+        "animal": [
+            {
+                "id": "animal_void_egg",
+                "name": "Void Egg",
+                "type": ["Animal Product"],
+                "price": 50,
+                "image": "https://stardewvalleywiki.com/mediawiki/images/a/a2/Void_Egg.png"
+            }
+        ],
+        "monster": [
+            {
+                "id": "monster_solar_essence",
+                "name": "Solar Essence",
+                "type": ["Monster Loot"],
+                "price": 40,
+                "image": "https://stardewvalleywiki.com/mediawiki/images/d/df/Solar_Essence.png"
+            },
+            {
+                "id": "monster_void_essence",
+                "name": "Void Essence",
+                "type": ["Monster Loot"],
+                "price": 50,
+                "image": "https://stardewvalleywiki.com/mediawiki/images/e/e9/Void_Essence.png"
+            }
+        ]
+    }
+}

@@ -1,0 +1,441 @@
+{
+	"meta": {
+		"version": "0.0.0",
+		"license": "CC BY-NC-SA 3.0",
+		"source": "https://stardewvalleywiki.com",
+		"official_site": "https://www.stardewvalley.net",
+		"copyright": "Stardew Valley is a trademark of ConcernedApe (Eric Barone). This is a fan project not affiliated with ConcernedApe.",
+		"progress_tracker": {
+			"villagers": 46
+		}
+	},
+	"data": [
+		{
+			"id": "villager_abigail",
+			"name": "Abigail",
+			"birthday": "Fall 13",
+			"marriage": true,
+			"loves": [
+				"mineral_amethyst",
+				"cooking_blackberry_cobbler",
+				"cooking_chocolate_cake",
+				"fish_pufferfish",
+				"crop_pumpkin",
+				"cooking_spicy_eel"
+			],
+			"image": "https://stardewvalleywiki.com/mediawiki/images/8/88/Abigail.png"
+		},
+		{
+			"id": "villager_alex",
+			"name": "Alex",
+			"birthday": "Summer 13",
+			"marriage": true,
+			"loves": ["cooking_complete_breakfast", "cooking_salmon_dinner"],
+			"image": "https://stardewvalleywiki.com/mediawiki/images/0/04/Alex.png"
+		},
+		{
+			"id": "villager_caroline",
+			"name": "Caroline",
+			"birthday": "Winter 7",
+			"marriage": false,
+			"loves": [
+				"cooking_fish_taco",
+				"artisan_green_tea",
+				"crop_summer_spangle",
+				"cooking_tropical_curry"
+			],
+			"image": "https://stardewvalleywiki.com/mediawiki/images/8/87/Caroline.png"
+		},
+		{
+			"id": "villager_clint",
+			"name": "Clint",
+			"birthday": "Winter 26",
+			"marriage": false,
+			"loves": [
+				"mineral_amethyst",
+				"mineral_aquamarine",
+				"cooking_artichoke_dip",
+				"mineral_emerald",
+				"cooking_fiddlehead_risotto",
+				"resource_gold_bar",
+				"resource_iridium_bar",
+				"mineral_jade",
+				"mineral_omni_geode",
+				"mineral_ruby",
+				"mineral_topaz"
+			],
+			"image": "https://stardewvalleywiki.com/mediawiki/images/3/31/Clint.png"
+		},
+		{
+			"id": "villager_demetrius",
+			"name": "Demetrius",
+			"birthday": "Summer 19",
+			"marriage": false,
+			"loves": ["cooking_bean_hotpot", "cooking_ice_cream", "cooking_rice_pudding", "crop_strawberry"],
+			"image": "https://stardewvalleywiki.com/mediawiki/images/f/f9/Demetrius.png"
+		},
+		{
+			"id": "villager_dwarf",
+			"name": "Dwarf",
+			"birthday": "Summer 22",
+			"marriage": false,
+			"loves": [
+				"mineral_amethyst",
+				"mineral_aquamarine",
+				"mineral_emerald",
+				"mineral_jade",
+				"mineral_lemon_stone",
+				"mineral_omni_geode",
+				"mineral_ruby",
+				"mineral_topaz"
+			],
+			"image": "https://stardewvalleywiki.com/mediawiki/images/e/ed/Dwarf.png"
+		},
+		{
+			"id": "villager_elliott",
+			"name": "Elliott",
+			"birthday": "Fall 5",
+			"marriage": true,
+			"loves": [
+				"cooking_crab_cakes",
+				"animal_duck_feather",
+				"fish_lobster",
+				"fruit_pomegranate",
+				"cooking_tom_kha_soup"
+			],
+			"image": "https://stardewvalleywiki.com/mediawiki/images/b/bd/Elliott.png"
+		},
+		{
+			"id": "villager_emily",
+			"name": "Emily",
+			"birthday": "Spring 27",
+			"marriage": true,
+			"loves": [
+				"mineral_amethyst",
+				"mineral_aquamarine",
+				"artisan_cloth",
+				"mineral_emerald",
+				"mineral_jade",
+				"mineral_ruby",
+				"cooking_survival_burger",
+				"mineral_topaz",
+				"animal_wool"
+			],
+			"image": "https://stardewvalleywiki.com/mediawiki/images/2/28/Emily.png"
+		},
+		{
+			"id": "villager_evelyn",
+			"name": "Evelyn",
+			"birthday": "Winter 20",
+			"marriage": false,
+			"loves": [
+				"crop_beet",
+				"cooking_chocolate_cake",
+				"mineral_diamond",
+				"crop_fairy_rose",
+				"cooking_stuffing",
+				"crop_tulip"
+			],
+			"image": "https://stardewvalleywiki.com/mediawiki/images/8/8e/Evelyn.png"
+		},
+		{
+			"id": "villager_george",
+			"name": "George",
+			"birthday": "Summer 19",
+			"marriage": false,
+			"loves": ["cooking_fried_mushroom", "forage_leek"],
+			"image": "https://stardewvalleywiki.com/mediawiki/images/7/78/George.png"
+		},
+		{
+			"id": "villager_gus",
+			"name": "Gus",
+			"birthday": "Summer 8",
+			"marriage": false,
+			"loves": [
+				"mineral_diamond",
+				"cooking_escargot",
+				"cooking_fish_taco",
+				"fruit_orange",
+				"cooking_tropical_curry"
+			],
+			"image": "https://stardewvalleywiki.com/mediawiki/images/5/52/Gus.png"
+		},
+		{
+			"id": "villager_haley",
+			"name": "Haley",
+			"birthday": "Spring 14",
+			"marriage": true,
+			"loves": ["fruit_coconut", "cooking_fruit_salad", "cooking_pink_cake", "crop_sunflower"],
+			"image": "https://stardewvalleywiki.com/mediawiki/images/1/1b/Haley.png"
+		},
+		{
+			"id": "villager_harvey",
+			"name": "Harvey",
+			"birthday": "Winter 14",
+			"marriage": true,
+			"loves": [
+				"crop_coffee_bean",
+				"cooking_pickles",
+				"cooking_super_meal",
+				"artisan_truffle_oil",
+				"artisan_wine"
+			],
+			"image": "https://stardewvalleywiki.com/mediawiki/images/9/95/Harvey.png"
+		},
+		{
+			"id": "villager_jas",
+			"name": "Jas",
+			"birthday": "Summer 4",
+			"marriage": false,
+			"loves": ["crop_fairy_rose", "cooking_pink_cake", "cooking_plum_pudding"],
+			"image": "https://stardewvalleywiki.com/mediawiki/images/5/55/Jas.png"
+		},
+		{
+			"id": "villager_jodi",
+			"name": "Jodi",
+			"birthday": "Fall 11",
+			"marriage": false,
+			"loves": [
+				"cooking_chocolate_cake",
+				"cooking_crispy_bass",
+				"mineral_diamond",
+				"cooking_eggplant_parmesan",
+				"cooking_fried_eel",
+				"cooking_pancakes",
+				"cooking_rhubarb_pie",
+				"cooking_vegetable_medley"
+			],
+			"image": "https://stardewvalleywiki.com/mediawiki/images/4/41/Jodi.png"
+		},
+		{
+			"id": "villager_kent",
+			"name": "Kent",
+			"birthday": "Spring 4",
+			"marriage": false,
+			"loves": ["cooking_fiddlehead_risotto", "cooking_roasted_hazelnuts"],
+			"image": "https://stardewvalleywiki.com/mediawiki/images/9/99/Kent.png"
+		},
+		{
+			"id": "villager_krobus",
+			"name": "Krobus",
+			"birthday": "Winter 1",
+			"marriage": false,
+			"loves": [
+				"mineral_diamond",
+				"resource_iridium_bar",
+				"crop_pumpkin",
+				"animal_void_egg",
+				"artisan_void_mayonnaise",
+				"forage_wild_horseradish"
+			],
+			"image": "https://stardewvalleywiki.com/mediawiki/images/7/71/Krobus.png"
+		},
+		{
+			"id": "villager_leah",
+			"name": "Leah",
+			"birthday": "Winter 23",
+			"marriage": true,
+			"loves": [
+				"artisan_goat_cheese",
+				"cooking_poppyseed_muffin",
+				"cooking_salad",
+				"cooking_stir_fry",
+				"forage_truffle",
+				"cooking_vegetable_medley",
+				"artisan_wine"
+			],
+			"image": "https://stardewvalleywiki.com/mediawiki/images/e/e6/Leah.png"
+		},
+		{
+			"id": "villager_lewis",
+			"name": "Lewis",
+			"birthday": "Spring 7",
+			"marriage": false,
+			"loves": [
+				"cooking_autumns_bounty",
+				"cooking_glazed_yams",
+				"artisan_green_tea",
+				"crop_hot_pepper",
+				"cooking_vegetable_medley"
+			],
+			"image": "https://stardewvalleywiki.com/mediawiki/images/2/2b/Lewis.png"
+		},
+		{
+			"id": "villager_linus",
+			"name": "Linus",
+			"birthday": "Winter 3",
+			"marriage": false,
+			"loves": [
+				"cooking_blueberry_tart",
+				"fruit_cactus_fruit",
+				"fruit_coconut",
+				"cooking_dish_o_the_sea",
+				"crop_yam"
+			],
+			"image": "https://stardewvalleywiki.com/mediawiki/images/3/31/Linus.png"
+		},
+		{
+			"id": "villager_marnie",
+			"name": "Marnie",
+			"birthday": "Fall 18",
+			"marriage": false,
+			"loves": [
+				"mineral_diamond",
+				"cooking_farmers_lunch",
+				"cooking_pink_cake",
+				"cooking_pumpkin_pie"
+			],
+			"image": "https://stardewvalleywiki.com/mediawiki/images/5/52/Marnie.png"
+		},
+		{
+			"id": "villager_maru",
+			"name": "Maru",
+			"birthday": "Summer 10",
+			"marriage": true,
+			"loves": [
+				"resource_battery_pack",
+				"crop_cauliflower",
+				"cooking_cheese_cauliflower",
+				"mineral_diamond",
+				"resource_gold_bar",
+				"resource_iridium_bar",
+				"cooking_miners_treat",
+				"cooking_pepper_poppers",
+				"cooking_rhubarb_pie",
+				"crop_strawberry"
+			],
+			"image": "https://stardewvalleywiki.com/mediawiki/images/f/f8/Maru.png"
+		},
+		{
+			"id": "villager_pam",
+			"name": "Pam",
+			"birthday": "Spring 18",
+			"marriage": false,
+			"loves": [
+				"artisan_beer",
+				"fruit_cactus_fruit",
+				"cooking_glazed_yams",
+				"artisan_mead",
+				"artisan_pale_ale",
+				"cooking_parsnip_soup",
+				"crop_parsnip",
+				"artisan_pina_colada"
+			],
+			"image": "https://stardewvalleywiki.com/mediawiki/images/d/da/Pam.png"
+		},
+		{
+			"id": "villager_penny",
+			"name": "Penny",
+			"birthday": "Fall 2",
+			"marriage": true,
+			"loves": [
+				"mineral_diamond",
+				"mineral_emerald",
+				"crop_melon",
+				"crop_poppy",
+				"cooking_poppyseed_muffin",
+				"cooking_red_plate",
+				"cooking_roots_platter",
+				"fish_sandfish",
+				"cooking_tom_kha_soup"
+			],
+			"image": "https://stardewvalleywiki.com/mediawiki/images/a/ab/Penny.png"
+		},
+		{
+			"id": "villager_pierre",
+			"name": "Pierre",
+			"birthday": "Spring 26",
+			"marriage": false,
+			"loves": ["cooking_fried_calamari"],
+			"image": "https://stardewvalleywiki.com/mediawiki/images/7/7e/Pierre.png"
+		},
+		{
+			"id": "villager_robin",
+			"name": "Robin",
+			"birthday": "Fall 21",
+			"marriage": false,
+			"loves": ["artisan_goat_cheese", "fruit_peach", "cooking_spaghetti"],
+			"image": "https://stardewvalleywiki.com/mediawiki/images/1/1b/Robin.png"
+		},
+		{
+			"id": "villager_sam",
+			"name": "Sam",
+			"birthday": "Summer 17",
+			"marriage": true,
+			"loves": ["fruit_cactus_fruit", "cooking_maple_bar", "cooking_pizza", "mineral_tigers_eye"],
+			"image": "https://stardewvalleywiki.com/mediawiki/images/9/94/Sam.png"
+		},
+		{
+			"id": "villager_sandy",
+			"name": "Sandy",
+			"birthday": "Fall 15",
+			"marriage": false,
+			"loves": ["forage_crocus", "forage_daffodil", "cooking_mango_sticky_rice", "forage_sweet_pea"],
+			"image": "https://stardewvalleywiki.com/mediawiki/images/4/4e/Sandy.png"
+		},
+		{
+			"id": "villager_sebastian",
+			"name": "Sebastian",
+			"birthday": "Winter 10",
+			"marriage": true,
+			"loves": [
+				"mineral_frozen_tear",
+				"mineral_obsidian",
+				"cooking_pumpkin_soup",
+				"cooking_sashimi",
+				"animal_void_egg"
+			],
+			"image": "https://stardewvalleywiki.com/mediawiki/images/a/a8/Sebastian.png"
+		},
+		{
+			"id": "villager_shane",
+			"name": "Shane",
+			"birthday": "Spring 20",
+			"marriage": true,
+			"loves": ["artisan_beer", "crop_hot_pepper", "cooking_pepper_poppers", "cooking_pizza"],
+			"image": "https://stardewvalleywiki.com/mediawiki/images/8/8b/Shane.png"
+		},
+		{
+			"id": "villager_vincent",
+			"name": "Vincent",
+			"birthday": "Spring 10",
+			"marriage": false,
+			"loves": [
+				"cooking_cranberry_candy",
+				"cooking_ginger_ale",
+				"crop_grape",
+				"cooking_pink_cake",
+				"fish_snail"
+			],
+			"image": "https://stardewvalleywiki.com/mediawiki/images/f/f1/Vincent.png"
+		},
+		{
+			"id": "villager_willy",
+			"name": "Willy",
+			"birthday": "Summer 24",
+			"marriage": false,
+			"loves": [
+				"fish_catfish",
+				"mineral_diamond",
+				"artisan_mead",
+				"fish_octopus",
+				"crop_pumpkin",
+				"fish_sturgeon"
+			],
+			"image": "https://stardewvalleywiki.com/mediawiki/images/8/82/Willy.png"
+		},
+		{
+			"id": "villager_wizard",
+			"name": "Wizard",
+			"birthday": "Winter 17",
+			"marriage": false,
+			"loves": [
+				"forage_purple_mushroom",
+				"monster_solar_essence",
+				"fish_super_cucumber",
+				"monster_void_essence"
+			],
+			"image": "https://stardewvalleywiki.com/mediawiki/images/c/c7/Wizard.png"
+		}
+	]
+}
