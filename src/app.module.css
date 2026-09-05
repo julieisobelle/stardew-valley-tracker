@@ -3,6 +3,24 @@
 }
 
 /* -- DEBUG ZONE --  */
+/* General debug button styling */
+.debugButton {
+    font-weight: bold;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Two color variations of the debug buttons (Controlled in React states) */
+.buttonOn {
+    background-color: var(--debug-button-red);
+}
+
+.buttonOff {
+    background-color: var(--debug-button-green);
+}
+
 .debugZone {
     display: flex;
     gap: 16px;
