@@ -8,6 +8,8 @@
 - [x] Add License & Copyright to README
 
 ## Tracker
+- [x] Create a debug viewer
+- [x] Create debug CSS variables
 - [ ] Create core CSS variables and theme
 - [ ] Create JSON data
 - [ ] Create a mock-card to view data
