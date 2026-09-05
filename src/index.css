@@ -1,0 +1,6 @@
+:root {
+    /* Debug colors for development purposes */
+    --debug-card-background: #ccc;
+    --debug-button-red: #ff4444;
+    --debug-button-green: #4CAF50;
+}
