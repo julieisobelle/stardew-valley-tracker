@@ -23,6 +23,7 @@
 
 .debugZone {
     display: flex;
+    flex-direction: column;
     gap: 16px;
     background-color: var(--debug-card-background);
     border: 2px dashed black;
