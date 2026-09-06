@@ -32,6 +32,13 @@
     margin-bottom: 32px;
 }
 
+/* Villager cards container */
+.villagerContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
 /* Simple debug cards for displaying information */
 .debugCard {
     width: 280px;
@@ -59,8 +66,8 @@
 
 /* Grid-layout for the debug cards */
 .giftGrid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    display: flex;
+    flex-wrap: wrap;
     gap: 16px;
     padding: 0;
 }
@@ -70,4 +77,9 @@
     gap: 24px;
     list-style: none;
     padding: 0;
+}
+
+.itemIcon {
+    width: 32px;
+    height: 32px;
 }

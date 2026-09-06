@@ -22,46 +22,49 @@ function App() {
         <section className={styles.debugZone}>
           {/* DEBUG VILLAGER CARDS */}
             {/**Need to use map to go through all the villagers there is. */}
-           {villagers.map((villager) => (
-            <div className={styles.debugCard}>
+            <h3>Villager cards:</h3>
+            <div className={styles.villagerContainer}>
+              {villagers.map((villager) => (
+                <div className={styles.debugCard}>
 
-              {/**Going through and finding villager portrait images */}
-              <img className={styles.villagerPortrait} src={villager.image} alt="" />
-              
-              {/**Going through and finding villager names */}
-              <h3>{villager.name}</h3>
-              
-              <ul className={styles.giftGrid}>
-                {/**Going through and finding every villager loves, and creating a listitem for them.  */}
-                {villager.loves.map((itemId) => {
-                    const item = getItemById(itemId);
+                  {/**Going through and finding villager portrait images */}
+                  <img className={styles.villagerPortrait} src={villager.image} alt="" />
+                  
+                  {/**Going through and finding villager names */}
+                  <h3>{villager.name}</h3>
+                  
+                  <ul className={styles.giftGrid}>
+                    {/**Going through and finding every villager loves, and creating a listitem for them.  */}
+                    {villager.loves.map((itemId) => {
+                        const item = getItemById(itemId);
 
-                    // Diagnostic log to check status
-                    console.log(`Checking ID: "${itemId}"`, item);
+                        // Diagnostic log to check status
+                        console.log(`Checking ID: "${itemId}"`, item);
 
-                    /*A catch if there is no item to find. */
-                    if (!item) {
-                      return (
-                        <li className={styles.giftList} key={itemId}>
-                          <span title={`Missing: ${itemId}`}>Not found: {itemId}</span>
-                        </li>
-                      );
-                    }
+                        /*A catch if there is no item to find. */
+                        if (!item) {
+                          return (
+                            <li className={styles.giftList} key={itemId}>
+                              <span title={`Missing: ${itemId}`}>Not found: {itemId}</span>
+                            </li>
+                          );
+                        }
 
-                    return (
-                      <li className={styles.giftList} key={itemId}>
-                        <img
-                          src={item.image}
-                          alt={item.name}
-                          title={item.name}
-                          className={styles.itemIcon}
-                        />
-                      </li>
-                    );
-                  })}
-              </ul>
+                        return (
+                          <li className={styles.giftList} key={itemId}>
+                            <img
+                              src={item.image}
+                              alt={item.name}
+                              title={item.name}
+                              className={styles.itemIcon}
+                            />
+                          </li>
+                        );
+                      })}
+                  </ul>
+                </div>
+              ))}
             </div>
-          ))}
         </section>
       )}
     </>
