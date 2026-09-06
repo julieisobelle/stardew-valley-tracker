@@ -32,3 +32,8 @@ This project serves as my hands-on way of relearning React after stepping away s
 ## Loop through
 - **Multiple data**: When rendering multiple data elements in React, use .map() to iterate over arrays and always assign a unique key prop to the outermost returned element.
 - **Data Shape Alignment**: Ensure child arrays (villager.loves) contain identifiers that precisely match the primary identifiers (item.id) in your source data collection for successful lookups.
+
+## Dynamic Counting & Reduction
+- **Repetitive Filtering**: Writing multiple `.filter().length` statements for individual categories as a straightforward way to build and test the debug progress tracker.
+
+- **The `.reduce()` Pattern**: A planned optimization for post-debug refactoring to enforce DRY code, eliminating repetitive filters and automatically scaling as new categories are introduced.

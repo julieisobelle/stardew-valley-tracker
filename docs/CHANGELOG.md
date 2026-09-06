@@ -25,8 +25,10 @@
 
 ### Priorities:
 - [ ] Expand `items.json` to include all missing loved items referenced by villagers to eliminate remaining "Not found" states.
-- [ ] Add a tracker for how many of the items categories I have added
+- [x] Add a tracker for how many of the items categories I have added
 
 ### Added:
+- Added an item tracker utilizing `progress_tracker` metadata to monitor item collection progress in the debug menu.
 
 ### Changed:
+- Updated villager cards and gift displays to a flexible grid layout instead of a single column.
