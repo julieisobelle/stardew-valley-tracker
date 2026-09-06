@@ -28,7 +28,7 @@
 - [x] Add a tracker for how many of the items categories I have added
 
 ### Added:
-- Added an item tracker utilizing `progress_tracker` metadata to monitor item collection progress in the debug menu.
+- Added an item tracker utilizing `progress_tracker` metadata to monitor item collection progress in the debug menu, visualizing `current` vs `target` counts so I can review target numbers and watch `current` catch up as data is added.
 
 ### Changed:
 - Updated villager cards and gift displays to a flexible grid layout instead of a single column.
