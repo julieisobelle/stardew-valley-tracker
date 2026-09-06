@@ -4,7 +4,14 @@ import { useItems } from "./hooks/useItems";
 
 function App() {
   const [showDebug, setShowDebug] = useState(false);
-  const { villagers, getItemById } = useItems();
+  const { villagers, items, meta, getItemById } = useItems();
+  
+  /* PROGRESS TRACKER */
+	const { crops_target, forage_target, minerals_target, fish_target } = meta.progress_tracker || {};
+	const currentCrops = items.filter((index) => index.type?.includes("Crop")).length;
+  const currentForage = items.filter((index) => index.type?.includes("Forage")).length;
+	const currentMinerals = items.filter((index) => index.type?.includes("Mineral")).length;
+	const currentFish = items.filter((index) => index.type?.includes("Fish")).length;
 
   return (
     <>
@@ -20,6 +27,23 @@ function App() {
 
       {showDebug && (
         <section className={styles.debugZone}>
+          {/* DEBUG ITEMS TRACKER */}
+          <ul className={styles.progressContainer}>
+            <h3>Progress tracker:</h3>
+            <li>
+              <span>Crops:</span> {currentCrops} / {crops_target}
+            </li>
+            <li>
+							<span>Forage:</span> {currentForage} / {forage_target}
+						</li>
+						<li>
+							<span>Minerals:</span> {currentMinerals} / {minerals_target}
+						</li>
+						<li>
+							<span>Fish:</span> {currentFish} / {fish_target}
+						</li>
+          </ul>
+
           {/* DEBUG VILLAGER CARDS */}
             {/**Need to use map to go through all the villagers there is. */}
             <h3>Villager cards:</h3>

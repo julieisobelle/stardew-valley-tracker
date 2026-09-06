@@ -32,6 +32,21 @@
     margin-bottom: 32px;
 }
 
+/* Progress tracker container */
+.progressContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+    padding: 0;
+}
+
+/* TEMP */
+.progressContainer > li {
+    padding-inline-start: 10px;
+    list-style-position: inside;
+}
+
 /* Villager cards container */
 .villagerContainer {
   display: grid;
