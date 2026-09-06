@@ -1,8 +1,10 @@
 import styles from "./app.module.css";
 import { useState } from "react";
+import { useItems } from "./hooks/useItems";
 
 function App() {
   const [showDebug, setShowDebug] = useState(false);
+  const { villagers, getItemById } = useItems();
 
   return (
     <>
@@ -19,21 +21,47 @@ function App() {
       {showDebug && (
         <section className={styles.debugZone}>
           {/* DEBUG VILLAGER CARDS */}
-          <div className={styles.debugCard}>
-            <img className={styles.villagerPortrait} src="" alt="" />
-            <h3>Pam</h3>
-            <ul className={styles.giftGrid}>
-              <li className={styles.giftList}>Beer, Cactus Fruit, Glazed Yams, Mead, Pale Ale, Parsnip, Tropical Curry</li>
-            </ul>
-          </div>
+            {/**Need to use map to go through all the villagers there is. */}
+           {villagers.map((villager) => (
+            <div className={styles.debugCard}>
 
-          <div className={styles.debugCard}>
-            <img className={styles.villagerPortrait} src="" alt="" />
-            <h3>Linus</h3>
-            <ul className={styles.giftGrid}>
-              <li className={styles.giftList}>Blueberry Tart, Cactus fruit, Coconut, Dish o' The Sea, Yam</li>
-            </ul>
-          </div>
+              {/**Going through and finding villager portrait images */}
+              <img className={styles.villagerPortrait} src={villager.image} alt="" />
+              
+              {/**Going through and finding villager names */}
+              <h3>{villager.name}</h3>
+              
+              <ul className={styles.giftGrid}>
+                {/**Going through and finding every villager loves, and creating a listitem for them.  */}
+                {villager.loves.map((itemId) => {
+                    const item = getItemById(itemId);
+
+                    // Diagnostic log to check status
+                    console.log(`Checking ID: "${itemId}"`, item);
+
+                    /*A catch if there is no item to find. */
+                    if (!item) {
+                      return (
+                        <li className={styles.giftList} key={itemId}>
+                          <span title={`Missing: ${itemId}`}>Not found: {itemId}</span>
+                        </li>
+                      );
+                    }
+
+                    return (
+                      <li className={styles.giftList} key={itemId}>
+                        <img
+                          src={item.image}
+                          alt={item.name}
+                          title={item.name}
+                          className={styles.itemIcon}
+                        />
+                      </li>
+                    );
+                  })}
+              </ul>
+            </div>
+          ))}
         </section>
       )}
     </>
