@@ -6,14 +6,14 @@
         "official_site": "https://www.stardewvalley.net",
         "copyright": "Stardew Valley is a trademark of ConcernedApe (Eric Barone). This is a fan project not affiliated with ConcernedApe.",
         "progress_tracker": {
-            "crops_target": 7,
-            "forage_target": 2,
-            "fish_target": 6,
-            "minerals_target": 5,
-            "artisan_target": 5,
-            "cooking_target": 17,
-            "animal_target": 1,
-            "monster_target": 2
+            "crops_target": 12,
+            "forage_target": 11,
+            "fish_target": 9,
+            "minerals_target": 15,
+            "artisan_goods_target": 10,
+            "cooking_target": 45,
+            "animal_product_target": 4,
+            "monster_loot_target": 3
         }
     },
     "data": {
